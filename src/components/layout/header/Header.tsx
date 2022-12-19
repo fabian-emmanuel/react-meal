@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Header.module.scss';
-import {images} from '../../constants';
-import {HeaderCartButton} from "../button/HeaderCartButton";
+import {HeaderCartButton} from "../header_cart_button/HeaderCartButton";
+import {images} from "../../../constants";
 
 export const Header = (props:any) => {
     return <>
